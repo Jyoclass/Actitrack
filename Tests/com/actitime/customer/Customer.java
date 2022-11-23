@@ -14,7 +14,11 @@ import org.testng.annotations.Test;
 public class Customer 
 {
 
-
+  @Test
+  public void create_customer()
+  {
+	  System.out.println("create customer");
+  }
 	 	
 	
 	
